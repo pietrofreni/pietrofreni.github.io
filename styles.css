@@ -42,10 +42,6 @@ main {
     margin-bottom: 10%;
 }
 
-#research-main{
-    display: block;
-    flex-direction: column;
-}
 
 /*General header, paragraphs ... */
 
@@ -125,7 +121,6 @@ main {
 /*home Page specifics*/
 
 #home-main > header{
-    width: 100%;
     flex-direction: column;
     justify-content: stretch;
     justify-items: stretch;
@@ -143,7 +138,9 @@ main {
 
 #the-only-pic img{
     width:100%;
-    height:100%;
+    height:17.5em;
+    object-fit: cover;
+    object-position:top;
 }
 
 
@@ -167,7 +164,7 @@ main {
 
     #the-only-pic img{
         object-fit:cover;
-        object-position: 0 5%;
+        object-position: 0 2%;
     }
 }
 
