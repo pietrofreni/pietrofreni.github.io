@@ -23,7 +23,6 @@ body{
 main, footer {
     color: #000;
     box-sizing: border-box;
-    min-width: 320px; 
     margin-right: 17.5%;
     margin-left: 17.5%;
     color: inherit;
@@ -60,6 +59,10 @@ header {
     font-size: 1em;
 }
 
+h1, h2, p, address{
+    padding: .25em;
+}
+
 header > * {
     background-color: rgb(174, 190, 144);
     color:black;
@@ -71,12 +74,10 @@ header > * {
 
 header > h1{
     display:inline-block;
-    min-width:10.5em;
+    box-sizing: border-box;
+    text-align: left;
     width:40%;
-}
-
-h1, h2, p, address{
-    padding: .25em;
+    min-width:fit-content;
 }
 
 address{
@@ -159,7 +160,7 @@ main {
     }
 
     #the-only-pic{
-        width:70%;
+        width:60%;
         height: 11.29em;
         padding-left: .1em;
     }
