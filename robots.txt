@@ -1,2 +1,2 @@
 User-Agent: *
-Disallow: /files/pic.jpg
+Disallow: /files/
